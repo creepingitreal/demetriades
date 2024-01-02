@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    font-family: 'Subjectivity-medium', 'san serif';
+    text-decoration: none;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a { 
+    color: #252424;
+    text-decoration: inherit;
+    transition: .2s;
+    line-height: 4vw;
+  }
+.menu a:hover {
+    font-size: 4vw;
+    font-weight: 500;
+    color: #3e3e3e;
+    font-size: 125%;
+  }

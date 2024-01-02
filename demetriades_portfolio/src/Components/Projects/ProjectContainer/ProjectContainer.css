@@ -1,0 +1,8 @@
+.project-container-image-right {
+    display: flex;
+}
+
+.project-container-image-left {
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "demetriades",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install <pkg>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/creepingitreal/demetriades.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creepingitreal/demetriades/issues"
+  },
+  "homepage": "https://github.com/creepingitreal/demetriades#readme"
+}
