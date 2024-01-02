@@ -7,7 +7,7 @@
     font-family: 'Subjectivity-Bold';
     src: local('Subjectivity-Bold'), url(/fonts/Subjectivity/Subjectivity-Bold.otf) format('opentype');
 }
-
+stat
 * {
     font-family: 'Subjectivity-Light', sans-serif;
 }
@@ -18,20 +18,16 @@ a {
 }
 
 .logo-container h2 {
-    font-size: 1.9vw;
     font-family: 'Subjectivity-Light', sans-serif;
     color: #252424;
 }
 
 .logo-container h1 {
-    font-size: 2vw;
     font-family: 'Subjectivity-Bold', sans-serif;
     color: #3e3e3e;
 }
 
 .logo-container p {
-    
-    font-size: 1.2vw;
     font-family: 'Subjectivity-Light', sans-serif;
     color: #3e3e3e;
 }
@@ -39,4 +35,11 @@ a {
 .logo-container:hover {
     font-size: 105%;
     transition: font-size 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+    .logo-container {
+        margin: 5px 20px;
+
+    }
 }

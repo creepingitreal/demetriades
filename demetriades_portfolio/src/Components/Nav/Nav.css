@@ -1,6 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 20px 50px;
 }
 
 .menu {
@@ -22,4 +23,21 @@ nav {
     font-weight: 500;
     color: #3e3e3e;
     font-size: 125%;
+  }
+
+  @media screen and (max-width: 900px) {
+    nav {
+      flex-direction: column;
+      margin: 5px 20px;
+    }
+
+    .menu {
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 20px 10px 5px 10px;
+    }
+
+    .menu a {
+      font-family: 'Subjectivity-Medium', sans-serif;
+    }
   }

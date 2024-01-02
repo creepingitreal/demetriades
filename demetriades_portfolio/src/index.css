@@ -4,6 +4,16 @@
 }
 
 @font-face {
+  font-family: 'Subjectivity-ExtraBold';
+  src: local('Subjectivity-ExtraBold'), url(/fonts/Subjectivity/Subjectivity-ExtraBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Subjectivity-Super';
+    src: local('Subjectivity-Super'), url(/fonts/Subjectivity/Subjectivity-Super.otf) format('opentype');
+  }
+  
+@font-face {
   font-family: 'Subjectivity-Bold';
   src: local('Subjectivity-Bold'), url(/fonts/Subjectivity/Subjectivity-Bold.otf) format('opentype');
 }
