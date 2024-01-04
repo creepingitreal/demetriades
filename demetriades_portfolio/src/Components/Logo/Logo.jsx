@@ -1,8 +1,8 @@
 import "./Logo.css"
 
-function Logo () {
+function Logo ({className}) {
     return (
-        <div class="logo-container">
+        <div className={className}>
             <h2>alexandra</h2>
             <h1>demetriades</h1>
             <p>software developer</p>

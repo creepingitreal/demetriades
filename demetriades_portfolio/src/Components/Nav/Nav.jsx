@@ -7,13 +7,14 @@ function Nav () {
         <nav>
             <ul>
                 <NavLink to="/">
-                    <Logo />
+                    <Logo className={"logo-container"}/>
                 </NavLink>
             </ul>
             <ul className="menu">
                 <NavLink to="/aboutme">About me</NavLink>
                 <NavLink to="/projects">Projects</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/coming-soon"></NavLink>
             </ul>
         </nav>
     )
